@@ -16,7 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    USER.isLogin = NO;
+ 
+    if ([[UDManager getUserName] length] != 0) {
+        [USER setIsLogin:YES];
+        USER.phone = [UDManager getUserName];
+        USER.nickName = @"喵小拖";
+        USER.ID = @"1";
+        USER.userName = @"喵小拖";
+        USER.headImg = @"https://pic.qyer.com/avatar/009/10/94/99/200?v=1516673371";
+        KUserNewNotiWithUserInfo(nil);
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshOrder" object:@"0"];
+        [MBProgressHUD showMessag:[NSString stringWithFormat:@"欢迎回来%@",USER.nickName] toView:Window];
+    }
     return YES;
 }
 

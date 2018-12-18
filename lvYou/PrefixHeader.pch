@@ -1,0 +1,106 @@
+//
+//  PrefixHeader.pch
+//  lvYou
+//
+//  Created by 小熊 on 2018/11/19.
+//  Copyright © 2018年 小熊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MBProgressHUD.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UIView+SDAutoLayout.h"
+#import "MBProgressHUD+Add.h"
+#import "UIView+ST.h"
+#import "EETableView.h"
+#import "NetworkManager.h"
+#import "TheTab.h"
+#import <Photos/Photos.h>
+#import "CDManager.h"
+
+
+#import "TheUser.h"
+#import "Worker.h"
+#import "UDManager.h"
+#import "BaseVC.h"
+#import "EEView.h"
+#import "EEImageView.h"
+
+#import "TVCell.h"
+#import "PersonInfoVC.h"
+#import "AdviceVC.h"
+#import "SettingVC.h"
+#import "RegistVC.h"
+#import "ForgetPassWordVC.h"
+#import "HomeVC.h"
+#import "ZiXunVC.h"
+#import "DetaiVC.h"
+#import "LogOnVC.h"
+#import "RegistVC.h"
+#import "ForgetPassWordVC.h"
+#import "ChangePasswordVC.h"
+#import "ZXDeatilVC.h"
+#import "ShoppingVC.h"
+#import "CollectViewCell.h"
+#import "StoreVC.h"
+#import "OrderDetailVC.h"
+#import "BlakListVC.h"
+#import "CollectionViewCell.h"
+#import "MyDongTaiVC.h"
+
+
+#define NET             [NetworkManager sharedManager]
+#define EEViewGreyColor     [UIColor colorWithRed:227/255.0 green:227/255.0 blue:227/255.0 alpha:1.0]
+#define SetImageViewImageWithURL_C(imageView, urlString, placeholder) \
+[imageView sd_setImageWithURL:[NSURL URLWithString:urlString] placeholderImage:[UIImage imageNamed:placeholder]];
+#define SetButtonImageWithURL_C(button, urlString, placeholder) \
+[button sd_setBackgroundImageWithURL:[NSURL URLWithString:urlString] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:placeholder]];
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_PAD (UI_USER_INTERFACE_IDIOM()== UIUserInterface
+/** 短信验证码发送间隔变化 */
+#define NOTI_SMSCountDown @"SMS_CD--"
+#define FOURCE_MB @"FOURCE_MB"
+#define CD              [CDManager sharedManager]
+
+#define PlaceHolderName @"rg"
+#define IconHolderName  @"tab_mine_normal"
+#define BGGreyColor         [UIColor colorWithRed:243/255.0 green:246/255.0 blue:249/255.0 alpha:1/1.0]
+#define Window          [[UIApplication sharedApplication].delegate window]
+#define ThemeImageColor @"order_bnt.png"
+#define ThemeColor        HexColor(0x4c7fff)
+#define NavBackBtnColor HexColor(0xffffff)
+#define USER            [TheUser user]
+#define HexColor(h)     [UIColor colorWithRed:(((h & 0xFF0000) >> 16))/255.0 green:(((h &0xFF00) >>8))/255.0 blue:((h &0xFF))/255.0 alpha:1.0]
+#define Width           [UIScreen mainScreen].bounds.size.width
+#define Height          [UIScreen mainScreen].bounds.size.height
+#define HEIGHT          [UIScreen mainScreen].bounds.size.height
+
+#define TopVC           [Worker theTopVC]
+#define AFN_TimeOut     10
+#define SBLoginName @"LogOnVC"
+#define SBName @"Main"
+#define NOTI_DidLogout  @"退出登录"
+#define UD              [NSUserDefaults standardUserDefaults]
+#define USER_Cache @"缓存的用户模型"
+#define Nav_Fond        17
+#define NOTI_RequestWarning @"请求的业务逻辑没走通"
+#define NOTI_RequestError @"请求出错"
+#define ResponseCode    @"success"
+#define ResponseDatas   @"response"
+#define SuccessCode     @1
+#define Message @"info"
+#define FirstPage       1
+#define ErrorMessage    [Worker convertErrorMessage:[error localizedDescription]]
+
+#define KUserNewNotiWithUserInfo(...)  [[NSNotificationCenter defaultCenter] postNotificationName:@"KUserNewNoti" object:nil userInfo:__VA_ARGS__] //发送连接状态
+#define KUserAddNewNotiWithSelector(...)  [[NSNotificationCenter defaultCenter] addObserver:self selector:__VA_ARGS__ name:@"KUserNewNoti" object:nil] //接收连接状态刷新数据
+
+#define SYSURL  @""
+#endif /* PrefixHeader_pch */
