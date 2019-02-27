@@ -6,11 +6,11 @@ target 'lvYou' do
   # use_frameworks!
         pod 'AFNetworking'
         pod 'SDWebImage'
-	pod 'MBProgressHUD' 
-        pod 'MJExtension'
-        pod 'Masonry'
-	pod 'MJRefresh'
+      	pod 'MBProgressHUD' 
 
+        pod 'Masonry'
+      	pod 'MJRefresh'
+      	pod 'JPush'
   # Pods for lvYou
 
   target 'lvYouTests' do
