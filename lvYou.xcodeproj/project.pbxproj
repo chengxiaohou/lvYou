@@ -192,6 +192,7 @@
 		D550A514367A63D493D38E99 /* Pods-lvYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYou/Pods-lvYou.debug.xcconfig"; sourceTree = "<group>"; };
 		D626F5CF0FD4F275FDA16F6F /* libPods-lvYouUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lvYouUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEBAB8DD4D7D154C8113E5 /* Pods-lvYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYou/Pods-lvYou.release.xcconfig"; sourceTree = "<group>"; };
+		E4DBE0B022295B0900F187CF /* lvYou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lvYou.entitlements; sourceTree = "<group>"; };
 		ED5A4A84195F843FA3F39F5F /* Pods-lvYouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouUITests/Pods-lvYouUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDA07883E5BAB05ACB9A4DDC /* Pods-lvYouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouTests/Pods-lvYouTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -301,6 +302,7 @@
 		9D9A621321A24FAC000B59D1 /* lvYou */ = {
 			isa = PBXGroup;
 			children = (
+				E4DBE0B022295B0900F187CF /* lvYou.entitlements */,
 				9D9A621421A24FAC000B59D1 /* AppDelegate.h */,
 				9D9A621521A24FAC000B59D1 /* AppDelegate.m */,
 				9DC573EF21A39CC500B80CCF /* home */,
@@ -525,6 +527,11 @@
 				TargetAttributes = {
 					9D9A621021A24FAC000B59D1 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					9D9A622821A24FAF000B59D1 = {
 						CreatedOnToolsVersion = 10.0;
@@ -881,8 +888,9 @@
 			baseConfigurationReference = D550A514367A63D493D38E99 /* Pods-lvYou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lvYou/lvYou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BN8A9M9J9U;
 				GCC_PREFIX_HEADER = lvYou/PrefixHeader.pch;
 				INFOPLIST_FILE = lvYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -890,7 +898,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.qulvyou;
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -901,8 +909,9 @@
 			baseConfigurationReference = DFEEBAB8DD4D7D154C8113E5 /* Pods-lvYou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lvYou/lvYou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BN8A9M9J9U;
 				GCC_PREFIX_HEADER = lvYou/PrefixHeader.pch;
 				INFOPLIST_FILE = lvYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -910,7 +919,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.qulvyou;
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
