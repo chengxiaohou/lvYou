@@ -84,6 +84,7 @@
 /* Begin PBXFileReference section */
 		1FE515BD462CA0217BFA7008 /* Pods-lvYouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouTests/Pods-lvYouTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53F0DDD9F16FF08163FC99AE /* libPods-lvYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lvYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AE2362228BF5200364394 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
 		616DA47164C2C882B9BB61C2 /* Pods-lvYouUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouUITests/Pods-lvYouUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D04AC9D21BE6A11003B72BA /* ShoppingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingVC.h; sourceTree = "<group>"; };
 		9D04AC9E21BE6A11003B72BA /* ShoppingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingVC.m; sourceTree = "<group>"; };
@@ -191,7 +192,6 @@
 		D550A514367A63D493D38E99 /* Pods-lvYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYou/Pods-lvYou.debug.xcconfig"; sourceTree = "<group>"; };
 		D626F5CF0FD4F275FDA16F6F /* libPods-lvYouUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lvYouUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEBAB8DD4D7D154C8113E5 /* Pods-lvYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYou/Pods-lvYou.release.xcconfig"; sourceTree = "<group>"; };
-		E49E3B2C21C92EB600393E21 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = SOURCE_ROOT; };
 		ED5A4A84195F843FA3F39F5F /* Pods-lvYouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouUITests/Pods-lvYouUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EDA07883E5BAB05ACB9A4DDC /* Pods-lvYouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouTests/Pods-lvYouTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -278,6 +278,7 @@
 		9D9A620821A24FAB000B59D1 = {
 			isa = PBXGroup;
 			children = (
+				540AE2362228BF5200364394 /* codeObfuscation.h */,
 				9D9A621321A24FAC000B59D1 /* lvYou */,
 				9D9A622C21A24FB0000B59D1 /* lvYouTests */,
 				9D9A623721A24FB0000B59D1 /* lvYouUITests */,
@@ -300,7 +301,6 @@
 		9D9A621321A24FAC000B59D1 /* lvYou */ = {
 			isa = PBXGroup;
 			children = (
-				E49E3B2C21C92EB600393E21 /* codeObfuscation.h */,
 				9D9A621421A24FAC000B59D1 /* AppDelegate.h */,
 				9D9A621521A24FAC000B59D1 /* AppDelegate.m */,
 				9DC573EF21A39CC500B80CCF /* home */,
@@ -882,7 +882,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BN8A9M9J9U;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = lvYou/PrefixHeader.pch;
 				INFOPLIST_FILE = lvYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -902,7 +902,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BN8A9M9J9U;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = lvYou/PrefixHeader.pch;
 				INFOPLIST_FILE = lvYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
