@@ -1,22 +1,22 @@
 #ifndef co_codeObfuscation_h
 #define co_codeObfuscation_h
 //confuse string at 2018年12月18日 星期二 21时29分05秒 CST
-#define BaseVC LLYY_BaseVC
-#define WHC_Asset LLYY_WHC_Asset
-#define WHC_PhotoListCell LLYY_WHC_PhotoListCell
-#define NetworkManager LLYY_NetworkManager
-#define BaseObj LLYY_BaseObj
-#define Worker LLYY_Worker
-#define NavView LLYY_NavView
-#define UDManager LLYY_UDManager
-#define TheTab LLYY_TheTab
-#define TheUser LLYY_TheUser
-#define AppDelegate LLYY_AppDelegate
-#define CDManager LLYY_CDManager
-#define SDCellAutoHeightManager LLYY_SDCellAutoHeightManager
-#define SDAutoLayoutModel LLYY_SDAutoLayoutModel
-#define SDAutoLayoutModelItem LLYY_SDAutoLayoutModelItem
-#define SDUIViewCategoryManager LLYY_SDUIViewCategoryManager
+//#define BaseVC LLYY_BaseVC
+//#define WHC_Asset LLYY_WHC_Asset
+//#define WHC_PhotoListCell LLYY_WHC_PhotoListCell
+//#define NetworkManager LLYY_NetworkManager
+//#define BaseObj LLYY_BaseObj
+//#define Worker LLYY_Worker
+//#define NavView LLYY_NavView
+//#define UDManager LLYY_UDManager
+//#define TheTab LLYY_TheTab
+//#define TheUser LLYY_TheUser
+//#define AppDelegate LLYY_AppDelegate
+//#define CDManager LLYY_CDManager
+//#define SDCellAutoHeightManager LLYY_SDCellAutoHeightManager
+//#define SDAutoLayoutModel LLYY_SDAutoLayoutModel
+//#define SDAutoLayoutModelItem LLYY_SDAutoLayoutModelItem
+//#define SDUIViewCategoryManager LLYY_SDUIViewCategoryManager
 
 #define showTheDetaiVC llyy_addVipPaymentList
 #define showTheMyDongTaiVC llyy_queryFullOrderID
