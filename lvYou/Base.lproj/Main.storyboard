@@ -9,7 +9,7 @@
         <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="GLHomeVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="MKHomeVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--DetaiVC-->
         <scene sceneID="rlx-Ue-alj">
             <objects>
-                <viewController storyboardIdentifier="DetaiVC" hidesBottomBarWhenPushed="YES" id="PNv-BH-7Ru" customClass="GLDetaiVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetaiVC" hidesBottomBarWhenPushed="YES" id="PNv-BH-7Ru" customClass="MKDetaiVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sZn-x2-pId">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,7 +295,7 @@
         <!--Zi XunVC-->
         <scene sceneID="nZn-Zx-egF">
             <objects>
-                <viewController storyboardIdentifier="ZiXunVC" id="l4y-cF-4EU" customClass="GLZiXunVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZiXunVC" id="l4y-cF-4EU" customClass="MKZiXunVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HZS-qB-hKa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -479,7 +479,7 @@
         <!--DeatilVC-->
         <scene sceneID="wSU-lh-eR7">
             <objects>
-                <viewController storyboardIdentifier="ZXDeatilVC" hidesBottomBarWhenPushed="YES" id="1ZB-W7-GZG" customClass="GLZXDeatilVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZXDeatilVC" hidesBottomBarWhenPushed="YES" id="1ZB-W7-GZG" customClass="MKZXDeatilVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wMH-K0-e6y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -557,7 +557,7 @@
         <!--Order DetailVC-->
         <scene sceneID="Not-iM-6wB">
             <objects>
-                <viewController storyboardIdentifier="OrderDetailVC" hidesBottomBarWhenPushed="YES" id="OVv-gO-hPB" customClass="GLOrderDetailVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrderDetailVC" hidesBottomBarWhenPushed="YES" id="OVv-gO-hPB" customClass="MKOrderDetailVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vsA-k0-Xds">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -773,7 +773,7 @@
         <!--Blak ListVC-->
         <scene sceneID="ndk-QJ-KTj">
             <objects>
-                <viewController storyboardIdentifier="BlakListVC" hidesBottomBarWhenPushed="YES" id="KLe-t9-MQF" customClass="GLBlakListVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlakListVC" hidesBottomBarWhenPushed="YES" id="KLe-t9-MQF" customClass="MKBlakListVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8cw-MN-05Q">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -875,7 +875,7 @@
         <!--MineVC-->
         <scene sceneID="1gw-Xm-d8g">
             <objects>
-                <viewController storyboardIdentifier="MineVC" id="A4O-Yx-tsJ" customClass="GLMineVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MineVC" id="A4O-Yx-tsJ" customClass="MKMineVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EFG-6h-SxX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1101,7 +1101,7 @@
         <!--Person InfoVC-->
         <scene sceneID="kqb-nk-2Vz">
             <objects>
-                <viewController storyboardIdentifier="PersonInfoVC" hidesBottomBarWhenPushed="YES" id="h2x-5r-ymC" customClass="GLPersonInfoVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonInfoVC" hidesBottomBarWhenPushed="YES" id="h2x-5r-ymC" customClass="MKPersonInfoVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F5L-08-FER">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1483,7 +1483,7 @@
         <!--SettingVC-->
         <scene sceneID="JR4-ho-oFE">
             <objects>
-                <viewController storyboardIdentifier="SettingVC" hidesBottomBarWhenPushed="YES" id="2lQ-EZ-yFl" customClass="GLSettingVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingVC" hidesBottomBarWhenPushed="YES" id="2lQ-EZ-yFl" customClass="MKSettingVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CAh-ZF-4hE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1687,7 +1687,7 @@
         <!--Log OnVC-->
         <scene sceneID="SDi-s4-Omt">
             <objects>
-                <viewController storyboardIdentifier="LogOnVC" hidesBottomBarWhenPushed="YES" id="421-eC-To4" customClass="GLLogOnVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogOnVC" hidesBottomBarWhenPushed="YES" id="421-eC-To4" customClass="MKLogOnVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eD8-Hc-tUA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1974,7 +1974,7 @@
         <!--Forget Pass WordVC-->
         <scene sceneID="I1S-hQ-RxZ">
             <objects>
-                <viewController storyboardIdentifier="ForgetPassWordVC" hidesBottomBarWhenPushed="YES" id="vuO-Hd-Cas" customClass="GLForgetPassWordVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgetPassWordVC" hidesBottomBarWhenPushed="YES" id="vuO-Hd-Cas" customClass="MKForgetPassWordVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lxf-Yj-KB5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2265,7 +2265,7 @@
         <!--RegistVC-->
         <scene sceneID="H3T-UO-aYL">
             <objects>
-                <viewController storyboardIdentifier="RegistVC" hidesBottomBarWhenPushed="YES" id="RxQ-gp-zde" customClass="GLRegistVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistVC" hidesBottomBarWhenPushed="YES" id="RxQ-gp-zde" customClass="MKRegistVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PfL-yh-8vo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2621,7 +2621,7 @@
         <!--Change PasswordVC-->
         <scene sceneID="rNM-it-HY8">
             <objects>
-                <viewController storyboardIdentifier="ChangePasswordVC" hidesBottomBarWhenPushed="YES" id="Pqd-w2-7Cb" customClass="GLChangePasswordVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChangePasswordVC" hidesBottomBarWhenPushed="YES" id="Pqd-w2-7Cb" customClass="MKChangePasswordVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MZd-x5-bHT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2807,7 +2807,7 @@
         <!--AdviceVC-->
         <scene sceneID="L24-1v-3cD">
             <objects>
-                <viewController storyboardIdentifier="AdviceVC" hidesBottomBarWhenPushed="YES" id="DqH-aE-MK0" customClass="GLAdviceVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AdviceVC" hidesBottomBarWhenPushed="YES" id="DqH-aE-MK0" customClass="MKAdviceVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zgu-G9-rGd"/>
                         <viewControllerLayoutGuide type="bottom" id="gvE-5o-iP3"/>
@@ -3047,7 +3047,7 @@
         <!--StoreVC-->
         <scene sceneID="1BU-fX-UBa">
             <objects>
-                <viewController storyboardIdentifier="StoreVC" id="Gk2-6Q-iqL" customClass="GLStoreVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoreVC" id="Gk2-6Q-iqL" customClass="MKStoreVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9VA-yu-yIE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3136,7 +3136,7 @@
         <!--ShoppingVC-->
         <scene sceneID="FhU-CT-opA">
             <objects>
-                <viewController storyboardIdentifier="ShoppingVC" hidesBottomBarWhenPushed="YES" id="9nC-Bl-z4s" customClass="GLShoppingVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShoppingVC" hidesBottomBarWhenPushed="YES" id="9nC-Bl-z4s" customClass="MKShoppingVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="noK-0P-7n0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3283,7 +3283,7 @@
         <!--My Dong TaiVC-->
         <scene sceneID="YhR-0V-Yvy">
             <objects>
-                <viewController storyboardIdentifier="MyDongTaiVC" hidesBottomBarWhenPushed="YES" id="Lcn-dy-DvH" customClass="GLMyDongTaiVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyDongTaiVC" hidesBottomBarWhenPushed="YES" id="Lcn-dy-DvH" customClass="MKMyDongTaiVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Fo-8D-1ku"/>
                         <viewControllerLayoutGuide type="bottom" id="d2L-tx-PJQ"/>
