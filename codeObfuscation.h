@@ -88,7 +88,6 @@
 #define cleanUserCacheData llyy_batchOfflineMemberInfo
 #define isTop llyy_makeFullDeviceToken
 #define sendSMSCodeToPhone llyy_queryTotalFriendDic
-#define CDManager llyy_updateAllPaymentID
 #define startCountDown llyy_saveThePaymentStatus
 #define showTheForgetPassWordVC llyy_searchFreeMemberList
 #define showTheRegistVC llyy_downloadCacheStatus
