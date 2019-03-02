@@ -237,7 +237,7 @@
 - (void)share:(NSString *)url
 {
     //分享的标题
-    NSString *textToShare = @"带你去旅游";
+    NSString *textToShare = @"旅游攻略";
     //分享的图片
     UIImage *imageToShare = [UIImage imageNamed:@"mine_ic4"];
     //分享的url

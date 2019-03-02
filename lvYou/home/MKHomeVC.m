@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.nav setTitle:@"带你去旅游" leftText:nil rightTitle:nil showBackImg:NO];
+    [self.nav setTitle:@"旅游攻略" leftText:nil rightTitle:nil showBackImg:NO];
     _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self getTheDatas];
