@@ -27,7 +27,6 @@
 #define onCancleTheBlakList mk_initOfflineGoodsToken
 #define showTheBlakListVC mk_getAllOrderID
 #define addBlackList mk_updateOldGroupList
-#define juBao mk_findTempCacheAttribute
 #define getTheDatas mk_searchFreeGroupName
 #define postTheDatas mk_batchAllOrderTypeID
 #define WHCPhotoListCurrentChoiceState mk_getVipGroupDic

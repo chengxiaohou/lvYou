@@ -88,7 +88,7 @@
     [cell.btn1 setImage:[UIImage imageNamed:@"pinglun"] forState:UIControlStateNormal];
     [cell.btn2 setTitle:dic[@"dianZan"] forState:UIControlStateNormal];
     [cell.btn2 setImage:[UIImage imageNamed:@"dianzhan"] forState:UIControlStateNormal];
-    [cell.btn3 addTarget:self action:@selector(juBao:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.btn3 addTarget:self action:@selector(juBaoBtn:) forControlEvents:UIControlEventTouchUpInside];
     cell.btn4.tag = indexPath.row;
     [cell.btn4 addTarget:self action:@selector(addBlackList:) forControlEvents:UIControlEventTouchUpInside];
     return cell;
@@ -103,7 +103,7 @@
         [MKZXDeatilVC showTheZXDeatilVC:dic[@"url"] andTheName:@"" andTheDiff:200 andTheDic:dic];
     }
 }
-- (void)juBao:(UIButton *)sender {
+- (void)juBaoBtn:(UIButton *)sender {
     
     [MBProgressHUD showMessag:@"感谢您的举报，我们审核人员将立马处理" toView:Window];
 }
