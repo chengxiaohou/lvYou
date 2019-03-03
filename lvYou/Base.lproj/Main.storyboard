@@ -220,7 +220,7 @@
                                                 </constraints>
                                                 <state key="normal" image="order_star_evaluation"/>
                                                 <connections>
-                                                    <action selector="shouCangBtn:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="gBg-yd-QaE"/>
+                                                    <action selector="mk_bindSomeMemberList:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="gBg-yd-QaE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjh-bx-jkG">
@@ -231,7 +231,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pingJiaBtn:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="Umv-Fr-60z"/>
+                                                    <action selector="mk_saveNewPaymentStatus:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="Umv-Fr-60z"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lo-SN-9EL">
@@ -242,7 +242,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="juBaoBtn:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="U11-Lg-3Gf"/>
+                                                    <action selector="mk_modifyOfflineGoodsAttribute:" destination="PNv-BH-7Ru" eventType="touchUpInside" id="U11-Lg-3Gf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -503,7 +503,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="立即购买"/>
                                                 <connections>
-                                                    <action selector="onBuy:" destination="1ZB-W7-GZG" eventType="touchUpInside" id="akr-7i-FtO"/>
+                                                    <action selector="mk_loadHotDeviceList:" destination="1ZB-W7-GZG" eventType="touchUpInside" id="akr-7i-FtO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -574,7 +574,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="确认"/>
                                         <connections>
-                                            <action selector="toSure:" destination="OVv-gO-hPB" eventType="touchUpInside" id="kNV-XR-hcR"/>
+                                            <action selector="mk_resetHotMemberAttribute:" destination="OVv-gO-hPB" eventType="touchUpInside" id="kNV-XR-hcR"/>
                                         </connections>
                                     </button>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5s-Oq-1P0">
@@ -920,7 +920,7 @@
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
                                                             <connections>
-                                                                <action selector="toPersonVC:" destination="A4O-Yx-tsJ" eventType="touchUpInside" id="TUN-jQ-Z9Q"/>
+                                                                <action selector="mk_addFullDeviceData:" destination="A4O-Yx-tsJ" eventType="touchUpInside" id="TUN-jQ-Z9Q"/>
                                                             </connections>
                                                         </button>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fUl-Tv-1AS" customClass="EEImageView">
@@ -1139,7 +1139,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="changeTheHeardImage:" destination="h2x-5r-ymC" eventType="touchUpInside" id="QR8-Km-y3w"/>
+                                                    <action selector="mk_batchOldUserData:" destination="h2x-5r-ymC" eventType="touchUpInside" id="QR8-Km-y3w"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1511,7 +1511,7 @@
                                             <constraint firstAttribute="width" constant="50" id="3Bs-l0-BfY"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="onBack:" destination="2lQ-EZ-yFl" eventType="touchUpInside" id="1kg-90-YUE"/>
+                                            <action selector="mk_initHotOrderInfo:" destination="2lQ-EZ-yFl" eventType="touchUpInside" id="1kg-90-YUE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1547,7 +1547,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="退出登录"/>
                                         <connections>
-                                            <action selector="Exit:" destination="2lQ-EZ-yFl" eventType="touchUpInside" id="Fjb-gm-pmU"/>
+                                            <action selector="mk_resetFreeCacheID:" destination="2lQ-EZ-yFl" eventType="touchUpInside" id="Fjb-gm-pmU"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-4C-PAP">
@@ -1716,7 +1716,7 @@
                                                     <color key="titleColor" red="0.29803921570000003" green="0.58039215690000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="ToRegist:" destination="421-eC-To4" eventType="touchUpInside" id="eaC-XQ-RMw"/>
+                                                    <action selector="mk_batchGroupData:" destination="421-eC-To4" eventType="touchUpInside" id="eaC-XQ-RMw"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="AM3-mH-ox1" customClass="EEImageView">
@@ -1796,7 +1796,7 @@
                                                 </constraints>
                                                 <state key="normal" image="login_ic_visible"/>
                                                 <connections>
-                                                    <action selector="showOrHiddenPassword:" destination="421-eC-To4" eventType="touchUpInside" id="2pb-a4-L5c"/>
+                                                    <action selector="mk_findFreeUserName:" destination="421-eC-To4" eventType="touchUpInside" id="2pb-a4-L5c"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vL8-f2-fwX" customClass="EEButton">
@@ -1813,7 +1813,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="TologOn:" destination="421-eC-To4" eventType="touchUpInside" id="DXT-Wg-uDt"/>
+                                                    <action selector="mk_updateFreeGroupConfig:" destination="421-eC-To4" eventType="touchUpInside" id="DXT-Wg-uDt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7J-bv-3Ds">
@@ -1827,7 +1827,7 @@
                                                     <color key="titleColor" red="0.29803921570000003" green="0.58039215690000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="ToForgetPassWord:" destination="421-eC-To4" eventType="touchUpInside" id="od3-V0-oIp"/>
+                                                    <action selector="mk_resetVipDeviceInfo:" destination="421-eC-To4" eventType="touchUpInside" id="od3-V0-oIp"/>
                                                 </connections>
                                             </button>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三方软件登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abU-7o-85A">
@@ -1863,7 +1863,7 @@
                                                 </constraints>
                                                 <state key="normal" backgroundImage="login_bnt_wechat"/>
                                                 <connections>
-                                                    <action selector="ToWeiXinLogOn:" destination="421-eC-To4" eventType="touchUpInside" id="pdJ-h2-y6O"/>
+                                                    <action selector="mk_downloadOnlineGroupTypeID:" destination="421-eC-To4" eventType="touchUpInside" id="pdJ-h2-y6O"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8X-JF-KZS">
@@ -1877,7 +1877,7 @@
                                                     <color key="titleColor" red="0.29803921570000003" green="0.58039215690000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="toLogonUserCode:" destination="421-eC-To4" eventType="touchUpInside" id="H4Y-fu-PQl"/>
+                                                    <action selector="mk_addPaymentToken:" destination="421-eC-To4" eventType="touchUpInside" id="H4Y-fu-PQl"/>
                                                 </connections>
                                             </button>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-Ih-Xb9">
@@ -2075,7 +2075,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="getTheCode:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="ide-uD-mNt"/>
+                                            <action selector="mk_loadTheUserTypeID:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="ide-uD-mNt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c25-Ms-lSJ">
@@ -2086,7 +2086,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="checkThePassWord:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="WRP-Bs-eFe"/>
+                                            <action selector="mk_bindGroupConfig:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="WRP-Bs-eFe"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dly_icon_mima" translatesAutoresizingMaskIntoConstraints="NO" id="bTm-Zw-tGC">
@@ -2123,7 +2123,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="reCheckThePassWord:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="dSy-Zw-YgX"/>
+                                            <action selector="mk_modifyFriendName:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="dSy-Zw-YgX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDm-5x-qON" customClass="EEButton">
@@ -2139,7 +2139,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="ToChagePassWord:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="dbD-5j-SeM"/>
+                                            <action selector="mk_addSomeGroupName:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="dbD-5j-SeM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2216,7 +2216,7 @@
                                             <constraint firstAttribute="width" constant="60" id="9Ko-IG-fDx"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="onBack:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="tPu-SV-qwJ"/>
+                                            <action selector="mk_initHotOrderInfo:" destination="vuO-Hd-Cas" eventType="touchUpInside" id="tPu-SV-qwJ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2366,7 +2366,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="sendTheCode:" destination="RxQ-gp-zde" eventType="touchUpInside" id="1MJ-dl-v3p"/>
+                                            <action selector="mk_refreshVipCacheStatus:" destination="RxQ-gp-zde" eventType="touchUpInside" id="1MJ-dl-v3p"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RK8-gt-6H3">
@@ -2377,7 +2377,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="ToShowThePassword:" destination="RxQ-gp-zde" eventType="touchUpInside" id="WGD-zN-q58"/>
+                                            <action selector="mk_downloadSomeCacheTypeID:" destination="RxQ-gp-zde" eventType="touchUpInside" id="WGD-zN-q58"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dly_icon_mima" translatesAutoresizingMaskIntoConstraints="NO" id="rpu-nb-miV">
@@ -2414,7 +2414,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="ReToShowThePassword:" destination="RxQ-gp-zde" eventType="touchUpInside" id="e0y-na-bku"/>
+                                            <action selector="mk_queryTempPaymentAttribute:" destination="RxQ-gp-zde" eventType="touchUpInside" id="e0y-na-bku"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-kL-McO" customClass="EEButton">
@@ -2430,7 +2430,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="ToRegist:" destination="RxQ-gp-zde" eventType="touchUpInside" id="BDd-5c-zA3"/>
+                                            <action selector="mk_batchGroupData:" destination="RxQ-gp-zde" eventType="touchUpInside" id="BDd-5c-zA3"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dly_icon_mima" translatesAutoresizingMaskIntoConstraints="NO" id="ttj-VO-zBg">
@@ -2473,7 +2473,7 @@
                                         </constraints>
                                         <state key="normal" backgroundImage="login_ic_unagree"/>
                                         <connections>
-                                            <action selector="ToReadTheAgreement:" destination="RxQ-gp-zde" eventType="touchUpInside" id="chT-J5-OSy"/>
+                                            <action selector="mk_modifyOldFriendAttribute:" destination="RxQ-gp-zde" eventType="touchUpInside" id="chT-J5-OSy"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="《途游协议》" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6x-V7-XGF">
@@ -2570,7 +2570,7 @@
                                             <constraint firstAttribute="height" constant="45" id="XU8-4O-ltH"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="onBack:" destination="RxQ-gp-zde" eventType="touchUpInside" id="iVL-ae-Bry"/>
+                                            <action selector="mk_initHotOrderInfo:" destination="RxQ-gp-zde" eventType="touchUpInside" id="iVL-ae-Bry"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2663,7 +2663,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="showThePassword:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="3Tm-n7-prA"/>
+                                            <action selector="mk_findAllGoodsID:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="3Tm-n7-prA"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dly_icon_mima" translatesAutoresizingMaskIntoConstraints="NO" id="HEu-rp-XGf">
@@ -2700,7 +2700,7 @@
                                         </constraints>
                                         <state key="normal" image="login_ic_visible"/>
                                         <connections>
-                                            <action selector="showTheRePassword:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="HsU-01-Yym"/>
+                                            <action selector="mk_searchHotDeviceData:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="HsU-01-Yym"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dly_icon_zhanghao" translatesAutoresizingMaskIntoConstraints="NO" id="Lib-VQ-LmM">
@@ -2742,7 +2742,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="changeThePassword:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="jHh-HV-udh"/>
+                                            <action selector="mk_downloadOldGroupList:" destination="Pqd-w2-7Cb" eventType="touchUpInside" id="jHh-HV-udh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2914,7 +2914,7 @@
                                             <constraint firstAttribute="width" constant="50" id="vvR-8k-fgN"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="onBack:" destination="DqH-aE-MK0" eventType="touchUpInside" id="MYC-zM-Jde"/>
+                                            <action selector="mk_initHotOrderInfo:" destination="DqH-aE-MK0" eventType="touchUpInside" id="MYC-zM-Jde"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhH-oh-GNp">
@@ -2937,7 +2937,7 @@
                                             <color key="titleColor" red="0.039215686270000001" green="0.039215686270000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="tiJiao:" destination="DqH-aE-MK0" eventType="touchUpInside" id="kXe-DS-wKm"/>
+                                            <action selector="mk_findVipMemberName:" destination="DqH-aE-MK0" eventType="touchUpInside" id="kXe-DS-wKm"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -3410,7 +3410,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <state key="normal" title="同意"/>
                             <connections>
-                                <action selector="agreeXieYIBtn:" destination="Lcn-dy-DvH" eventType="touchUpInside" id="mZ2-IZ-J2G"/>
+                                <action selector="mk_deleteNewDeviceDic:" destination="Lcn-dy-DvH" eventType="touchUpInside" id="mZ2-IZ-J2G"/>
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="法律声明及隐私政策" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ala-p3-HeR">
@@ -3427,7 +3427,7 @@
                             </constraints>
                             <state key="normal" image="order_ic_evaluation"/>
                             <connections>
-                                <action selector="selectedTheXieYiBtn:" destination="Lcn-dy-DvH" eventType="touchUpInside" id="tjo-FT-TqL"/>
+                                <action selector="mk_loadTempOrderAttribute:" destination="Lcn-dy-DvH" eventType="touchUpInside" id="tjo-FT-TqL"/>
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我已阅读并同于" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSx-VZ-QbP">
