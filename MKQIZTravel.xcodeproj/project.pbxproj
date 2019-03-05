@@ -246,9 +246,12 @@
 				E41E0F0F222A313000D93072 /* MKQIZTravel.entitlements */,
 				9D9A621421A24FAC000B59D1 /* AppDelegate.h */,
 				9D9A621521A24FAC000B59D1 /* AppDelegate.m */,
-				9DC573EF21A39CC500B80CCF /* home */,
-				9DC573F421A39CF200B80CCF /* Mine */,
-				9DC573F321A39CE200B80CCF /* ZiXun */,
+				9DC573EE21A39A6200B80CCF /* MKTools */,
+				9D9A627C21A26B42000B59D1 /* MKLogOn */,
+				9DC573EF21A39CC500B80CCF /* MKHome */,
+				9DC573F421A39CF200B80CCF /* MKMine */,
+				9DC573F321A39CE200B80CCF /* MKZiXun */,
+				9D9A626821A26987000B59D1 /* SDAutoLayout */,
 				9D9A621A21A24FAC000B59D1 /* Main.storyboard */,
 				9D9A625C21A26355000B59D1 /* MKSettingVC.h */,
 				9D9A625D21A26355000B59D1 /* MKSettingVC.m */,
@@ -261,9 +264,6 @@
 				9D0A051821C62C52004FF329 /* CollectionViewCell.h */,
 				9D0A051721C62C52004FF329 /* CollectionViewCell.m */,
 				9D9A624621A25BBB000B59D1 /* PrefixHeader.pch */,
-				9D9A627C21A26B42000B59D1 /* LogOn */,
-				9DC573EE21A39A6200B80CCF /* Tools */,
-				9D9A626821A26987000B59D1 /* SDAutoLayout */,
 				9D9A621D21A24FAF000B59D1 /* Assets.xcassets */,
 				9D9A621F21A24FAF000B59D1 /* LaunchScreen.storyboard */,
 				9D9A622221A24FAF000B59D1 /* Info.plist */,
@@ -284,7 +284,7 @@
 			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
-		9D9A627C21A26B42000B59D1 /* LogOn */ = {
+		9D9A627C21A26B42000B59D1 /* MKLogOn */ = {
 			isa = PBXGroup;
 			children = (
 				9D9A627421A26B3A000B59D1 /* MKChangePasswordVC.h */,
@@ -296,10 +296,10 @@
 				9D9A627121A26B39000B59D1 /* MKRegistVC.h */,
 				9D9A627721A26B3B000B59D1 /* MKRegistVC.m */,
 			);
-			path = LogOn;
+			path = MKLogOn;
 			sourceTree = "<group>";
 		};
-		9DC573EE21A39A6200B80CCF /* Tools */ = {
+		9DC573EE21A39A6200B80CCF /* MKTools */ = {
 			isa = PBXGroup;
 			children = (
 				9D0A051621C62C06004FF329 /* WHCLib */,
@@ -335,10 +335,10 @@
 				9D04ACA221BE6B05003B72BA /* CollectViewCell.m */,
 				9DC573F521A3BE7D00B80CCF /* Back_Icon_SystemType.png */,
 			);
-			path = Tools;
+			path = MKTools;
 			sourceTree = "<group>";
 		};
-		9DC573EF21A39CC500B80CCF /* home */ = {
+		9DC573EF21A39CC500B80CCF /* MKHome */ = {
 			isa = PBXGroup;
 			children = (
 				9D9A629521A28695000B59D1 /* MKHomeVC.h */,
@@ -346,10 +346,10 @@
 				9DC573EB21A28D1B00B80CCF /* MKDetaiVC.h */,
 				9DC573EC21A28D1B00B80CCF /* MKDetaiVC.m */,
 			);
-			path = home;
+			path = MKHome;
 			sourceTree = "<group>";
 		};
-		9DC573F321A39CE200B80CCF /* ZiXun */ = {
+		9DC573F321A39CE200B80CCF /* MKZiXun */ = {
 			isa = PBXGroup;
 			children = (
 				9DC573F021A39CDC00B80CCF /* MKZiXunVC.h */,
@@ -361,10 +361,10 @@
 				9D0A04FF21C62B7E004FF329 /* MKMyDongTaiVC.h */,
 				9D0A04FD21C62B6D004FF329 /* MKMyDongTaiVC.m */,
 			);
-			path = ZiXun;
+			path = MKZiXun;
 			sourceTree = "<group>";
 		};
-		9DC573F421A39CF200B80CCF /* Mine */ = {
+		9DC573F421A39CF200B80CCF /* MKMine */ = {
 			isa = PBXGroup;
 			children = (
 				9D9A625821A2631C000B59D1 /* MKMineVC.h */,
@@ -376,7 +376,7 @@
 				9D9A628D21A26E0B000B59D1 /* MKAdviceVC.h */,
 				9D9A628C21A26E0B000B59D1 /* MKAdviceVC.m */,
 			);
-			path = Mine;
+			path = MKMine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
