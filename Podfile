@@ -12,16 +12,4 @@ target 'MKQIZTravel' do
       	pod 'MJRefresh'
       	pod 'JPush'
 
-  # Pods for lvYou
-
-  target 'lvYouTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'lvYouUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

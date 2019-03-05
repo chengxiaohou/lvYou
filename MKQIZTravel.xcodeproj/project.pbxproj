@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6599BFD2AE36E80B70490A38 /* libPods-lvYouTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A940A26F8AB36F4EEAFF07 /* libPods-lvYouTests.a */; };
-		98EDD8614F76C8B068D47D11 /* libPods-lvYouUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D626F5CF0FD4F275FDA16F6F /* libPods-lvYouUITests.a */; };
 		9D04AC9F21BE6A11003B72BA /* MKShoppingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04AC9E21BE6A11003B72BA /* MKShoppingVC.m */; };
 		9D04ACA321BE6B05003B72BA /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA221BE6B05003B72BA /* CollectViewCell.m */; };
 		9D04ACA621BE7CC5003B72BA /* MKStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA521BE7CC5003B72BA /* MKStoreVC.m */; };
@@ -29,8 +27,6 @@
 		9D9A621E21A24FAF000B59D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A621D21A24FAF000B59D1 /* Assets.xcassets */; };
 		9D9A622121A24FAF000B59D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A621F21A24FAF000B59D1 /* LaunchScreen.storyboard */; };
 		9D9A622421A24FAF000B59D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A622321A24FAF000B59D1 /* main.m */; };
-		9D9A622E21A24FB0000B59D1 /* lvYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A622D21A24FB0000B59D1 /* lvYouTests.m */; };
-		9D9A623921A24FB0000B59D1 /* lvYouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A623821A24FB0000B59D1 /* lvYouUITests.m */; };
 		9D9A624921A25EE6000B59D1 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A624821A25EE6000B59D1 /* Worker.m */; };
 		9D9A624F21A2610C000B59D1 /* BaseObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A624D21A2610C000B59D1 /* BaseObj.m */; };
 		9D9A625221A26167000B59D1 /* TheUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625121A26167000B59D1 /* TheUser.m */; };
@@ -64,28 +60,9 @@
 		BAAE8E51475F7BF7FA0FCC10 /* libPods-MKQIZTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D9A622A21A24FAF000B59D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D9A620921A24FAB000B59D1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D9A621021A24FAC000B59D1;
-			remoteInfo = MKQIZTravel;
-		};
-		9D9A623521A24FB0000B59D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D9A620921A24FAB000B59D1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D9A621021A24FAC000B59D1;
-			remoteInfo = MKQIZTravel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1FE515BD462CA0217BFA7008 /* Pods-lvYouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouTests/Pods-lvYouTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKQIZTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540AE2362228BF5200364394 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
-		616DA47164C2C882B9BB61C2 /* Pods-lvYouUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouUITests/Pods-lvYouUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D04AC9D21BE6A11003B72BA /* MKShoppingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKShoppingVC.h; sourceTree = "<group>"; };
 		9D04AC9E21BE6A11003B72BA /* MKShoppingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKShoppingVC.m; sourceTree = "<group>"; };
 		9D04ACA121BE6B05003B72BA /* CollectViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectViewCell.h; sourceTree = "<group>"; };
@@ -121,12 +98,6 @@
 		9D9A622021A24FAF000B59D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D9A622221A24FAF000B59D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D9A622321A24FAF000B59D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D9A622921A24FAF000B59D1 /* lvYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lvYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D9A622D21A24FB0000B59D1 /* lvYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lvYouTests.m; sourceTree = "<group>"; };
-		9D9A622F21A24FB0000B59D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D9A623421A24FB0000B59D1 /* lvYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lvYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D9A623821A24FB0000B59D1 /* lvYouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lvYouUITests.m; sourceTree = "<group>"; };
-		9D9A623A21A24FB0000B59D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D9A624621A25BBB000B59D1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9D9A624721A25EE6000B59D1 /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
 		9D9A624821A25EE6000B59D1 /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
@@ -188,13 +159,9 @@
 		9DEE8FDC21BF6DDE00FC24DB /* MKOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKOrderDetailVC.m; sourceTree = "<group>"; };
 		9DEE8FE121BF96D100FC24DB /* CDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDManager.h; sourceTree = "<group>"; };
 		9DEE8FE221BF96D100FC24DB /* CDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDManager.m; sourceTree = "<group>"; };
-		C1A940A26F8AB36F4EEAFF07 /* libPods-lvYouTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lvYouTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D550A514367A63D493D38E99 /* Pods-MKQIZTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKQIZTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKQIZTravel/Pods-MKQIZTravel.debug.xcconfig"; sourceTree = "<group>"; };
-		D626F5CF0FD4F275FDA16F6F /* libPods-lvYouUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lvYouUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEEBAB8DD4D7D154C8113E5 /* Pods-MKQIZTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKQIZTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKQIZTravel/Pods-MKQIZTravel.release.xcconfig"; sourceTree = "<group>"; };
 		E41E0F0F222A313000D93072 /* MKQIZTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MKQIZTravel.entitlements; sourceTree = "<group>"; };
-		ED5A4A84195F843FA3F39F5F /* Pods-lvYouUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouUITests/Pods-lvYouUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EDA07883E5BAB05ACB9A4DDC /* Pods-lvYouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lvYouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lvYouTests/Pods-lvYouTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,22 +173,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D9A622621A24FAF000B59D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6599BFD2AE36E80B70490A38 /* libPods-lvYouTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D9A623121A24FB0000B59D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98EDD8614F76C8B068D47D11 /* libPods-lvYouUITests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -230,10 +181,6 @@
 			children = (
 				D550A514367A63D493D38E99 /* Pods-MKQIZTravel.debug.xcconfig */,
 				DFEEBAB8DD4D7D154C8113E5 /* Pods-MKQIZTravel.release.xcconfig */,
-				1FE515BD462CA0217BFA7008 /* Pods-lvYouTests.debug.xcconfig */,
-				EDA07883E5BAB05ACB9A4DDC /* Pods-lvYouTests.release.xcconfig */,
-				616DA47164C2C882B9BB61C2 /* Pods-lvYouUITests.debug.xcconfig */,
-				ED5A4A84195F843FA3F39F5F /* Pods-lvYouUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -242,8 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */,
-				C1A940A26F8AB36F4EEAFF07 /* libPods-lvYouTests.a */,
-				D626F5CF0FD4F275FDA16F6F /* libPods-lvYouUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -281,8 +226,6 @@
 			children = (
 				540AE2362228BF5200364394 /* codeObfuscation.h */,
 				9D9A621321A24FAC000B59D1 /* MKQIZTravel */,
-				9D9A622C21A24FB0000B59D1 /* lvYouTests */,
-				9D9A623721A24FB0000B59D1 /* lvYouUITests */,
 				9D9A621221A24FAC000B59D1 /* Products */,
 				2C335BB43DC167BFBA5767D8 /* Pods */,
 				429523009AB61397B3630426 /* Frameworks */,
@@ -293,8 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				9D9A621121A24FAC000B59D1 /* MKQIZTravel.app */,
-				9D9A622921A24FAF000B59D1 /* lvYouTests.xctest */,
-				9D9A623421A24FB0000B59D1 /* lvYouUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,24 +270,6 @@
 				9D9A622321A24FAF000B59D1 /* main.m */,
 			);
 			path = MKQIZTravel;
-			sourceTree = "<group>";
-		};
-		9D9A622C21A24FB0000B59D1 /* lvYouTests */ = {
-			isa = PBXGroup;
-			children = (
-				9D9A622D21A24FB0000B59D1 /* lvYouTests.m */,
-				9D9A622F21A24FB0000B59D1 /* Info.plist */,
-			);
-			path = lvYouTests;
-			sourceTree = "<group>";
-		};
-		9D9A623721A24FB0000B59D1 /* lvYouUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9D9A623821A24FB0000B59D1 /* lvYouUITests.m */,
-				9D9A623A21A24FB0000B59D1 /* Info.plist */,
-			);
-			path = lvYouUITests;
 			sourceTree = "<group>";
 		};
 		9D9A626821A26987000B59D1 /* SDAutoLayout */ = {
@@ -467,7 +390,7 @@
 				9D9A620D21A24FAC000B59D1 /* Sources */,
 				9D9A620E21A24FAC000B59D1 /* Frameworks */,
 				9D9A620F21A24FAC000B59D1 /* Resources */,
-				342C1B1D67F5A87AEFFA243D /* [CP] Copy Pods Resources */,
+				F7A4E4DB2AA0AA247D8835A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -477,44 +400,6 @@
 			productName = MKQIZTravel;
 			productReference = 9D9A621121A24FAC000B59D1 /* MKQIZTravel.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9D9A622821A24FAF000B59D1 /* lvYouTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D9A624021A24FB0000B59D1 /* Build configuration list for PBXNativeTarget "lvYouTests" */;
-			buildPhases = (
-				7CF3841C6E7E9B25B8400BFB /* [CP] Check Pods Manifest.lock */,
-				9D9A622521A24FAF000B59D1 /* Sources */,
-				9D9A622621A24FAF000B59D1 /* Frameworks */,
-				9D9A622721A24FAF000B59D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D9A622B21A24FAF000B59D1 /* PBXTargetDependency */,
-			);
-			name = lvYouTests;
-			productName = lvYouTests;
-			productReference = 9D9A622921A24FAF000B59D1 /* lvYouTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9D9A623321A24FB0000B59D1 /* lvYouUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D9A624321A24FB0000B59D1 /* Build configuration list for PBXNativeTarget "lvYouUITests" */;
-			buildPhases = (
-				2D4D5A4953D7580B1C55DE1F /* [CP] Check Pods Manifest.lock */,
-				9D9A623021A24FB0000B59D1 /* Sources */,
-				9D9A623121A24FB0000B59D1 /* Frameworks */,
-				9D9A623221A24FB0000B59D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D9A623621A24FB0000B59D1 /* PBXTargetDependency */,
-			);
-			name = lvYouUITests;
-			productName = lvYouUITests;
-			productReference = 9D9A623421A24FB0000B59D1 /* lvYouUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -533,14 +418,6 @@
 							};
 						};
 					};
-					9D9A622821A24FAF000B59D1 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 9D9A621021A24FAC000B59D1;
-					};
-					9D9A623321A24FB0000B59D1 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 9D9A621021A24FAC000B59D1;
-					};
 				};
 			};
 			buildConfigurationList = 9D9A620C21A24FAB000B59D1 /* Build configuration list for PBXProject "MKQIZTravel" */;
@@ -557,8 +434,6 @@
 			projectRoot = "";
 			targets = (
 				9D9A621021A24FAC000B59D1 /* MKQIZTravel */,
-				9D9A622821A24FAF000B59D1 /* lvYouTests */,
-				9D9A623321A24FB0000B59D1 /* lvYouUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -578,42 +453,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D9A622721A24FAF000B59D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D9A623221A24FB0000B59D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D4D5A4953D7580B1C55DE1F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-lvYouUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		342C1B1D67F5A87AEFFA243D /* [CP] Copy Pods Resources */ = {
+		F7A4E4DB2AA0AA247D8835A4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -629,24 +472,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKQIZTravel/Pods-MKQIZTravel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7CF3841C6E7E9B25B8400BFB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-lvYouTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD5E54286DADD83C9CD81C54 /* [CP] Check Pods Manifest.lock */ = {
@@ -720,36 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D9A622521A24FAF000B59D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D9A622E21A24FB0000B59D1 /* lvYouTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D9A623021A24FB0000B59D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D9A623921A24FB0000B59D1 /* lvYouUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D9A622B21A24FAF000B59D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D9A621021A24FAC000B59D1 /* MKQIZTravel */;
-			targetProxy = 9D9A622A21A24FAF000B59D1 /* PBXContainerItemProxy */;
-		};
-		9D9A623621A24FB0000B59D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D9A621021A24FAC000B59D1 /* MKQIZTravel */;
-			targetProxy = 9D9A623521A24FB0000B59D1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D9A621A21A24FAC000B59D1 /* Main.storyboard */ = {
@@ -925,84 +721,6 @@
 			};
 			name = Release;
 		};
-		9D9A624121A24FB0000B59D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FE515BD462CA0217BFA7008 /* Pods-lvYouTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWCVT2PCJ9;
-				INFOPLIST_FILE = lvYouTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lvYouTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKQIZTravel.app/MKQIZTravel";
-			};
-			name = Debug;
-		};
-		9D9A624221A24FB0000B59D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDA07883E5BAB05ACB9A4DDC /* Pods-lvYouTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWCVT2PCJ9;
-				INFOPLIST_FILE = lvYouTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lvYouTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKQIZTravel.app/MKQIZTravel";
-			};
-			name = Release;
-		};
-		9D9A624421A24FB0000B59D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616DA47164C2C882B9BB61C2 /* Pods-lvYouUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWCVT2PCJ9;
-				INFOPLIST_FILE = lvYouUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lvYouUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MKQIZTravel;
-			};
-			name = Debug;
-		};
-		9D9A624521A24FB0000B59D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED5A4A84195F843FA3F39F5F /* Pods-lvYouUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DWCVT2PCJ9;
-				INFOPLIST_FILE = lvYouUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaoxiong.lvYouUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MKQIZTravel;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1020,24 +738,6 @@
 			buildConfigurations = (
 				9D9A623E21A24FB0000B59D1 /* Debug */,
 				9D9A623F21A24FB0000B59D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D9A624021A24FB0000B59D1 /* Build configuration list for PBXNativeTarget "lvYouTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D9A624121A24FB0000B59D1 /* Debug */,
-				9D9A624221A24FB0000B59D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D9A624321A24FB0000B59D1 /* Build configuration list for PBXNativeTarget "lvYouUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D9A624421A24FB0000B59D1 /* Debug */,
-				9D9A624521A24FB0000B59D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
