@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D04AC9F21BE6A11003B72BA /* MKShoppingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04AC9E21BE6A11003B72BA /* MKShoppingVC.m */; };
+		9D04AC9F21BE6A11003B72BA /* MKQIZShoppingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04AC9E21BE6A11003B72BA /* MKQIZShoppingVC.m */; };
 		9D04ACA321BE6B05003B72BA /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA221BE6B05003B72BA /* CollectViewCell.m */; };
-		9D04ACA621BE7CC5003B72BA /* MKStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA521BE7CC5003B72BA /* MKStoreVC.m */; };
-		9D0A04FC21C61EDE004FF329 /* MKBlakListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A04FB21C61EDE004FF329 /* MKBlakListVC.m */; };
-		9D0A04FE21C62B6D004FF329 /* MKMyDongTaiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A04FD21C62B6D004FF329 /* MKMyDongTaiVC.m */; };
+		9D04ACA621BE7CC5003B72BA /* MKQIZStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA521BE7CC5003B72BA /* MKQIZStoreVC.m */; };
+		9D0A04FC21C61EDE004FF329 /* MKQIZBlakListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A04FB21C61EDE004FF329 /* MKQIZBlakListVC.m */; };
+		9D0A04FE21C62B6D004FF329 /* MKQIZMyDongTaiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A04FD21C62B6D004FF329 /* MKQIZMyDongTaiVC.m */; };
 		9D0A050421C62BCD004FF329 /* WHC_Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A050121C62BCC004FF329 /* WHC_Asset.m */; };
 		9D0A050521C62BCD004FF329 /* WHC_PhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A050221C62BCD004FF329 /* WHC_PhotoListCell.m */; };
 		9D0A051021C62BF2004FF329 /* WHC_ChoicePictureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A050721C62BEF004FF329 /* WHC_ChoicePictureVC.xib */; };
@@ -21,7 +21,7 @@
 		9D0A051421C62BF2004FF329 /* WHC_CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A050E21C62BF2004FF329 /* WHC_CameraVC.m */; };
 		9D0A051521C62BF2004FF329 /* WHC_ChoicePictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A050F21C62BF2004FF329 /* WHC_ChoicePictureVC.m */; };
 		9D0A051921C62C52004FF329 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A051721C62C52004FF329 /* CollectionViewCell.m */; };
-		9D8BD46E21BE6287003D51F0 /* MKZXDeatilVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BD46D21BE6287003D51F0 /* MKZXDeatilVC.m */; };
+		9D8BD46E21BE6287003D51F0 /* MKQIZZXDeatilVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8BD46D21BE6287003D51F0 /* MKQIZZXDeatilVC.m */; };
 		9D9A621621A24FAC000B59D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A621521A24FAC000B59D1 /* AppDelegate.m */; };
 		9D9A621C21A24FAC000B59D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A621A21A24FAC000B59D1 /* Main.storyboard */; };
 		9D9A621E21A24FAF000B59D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9A621D21A24FAF000B59D1 /* Assets.xcassets */; };
@@ -31,31 +31,31 @@
 		9D9A624F21A2610C000B59D1 /* BaseObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A624D21A2610C000B59D1 /* BaseObj.m */; };
 		9D9A625221A26167000B59D1 /* TheUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625121A26167000B59D1 /* TheUser.m */; };
 		9D9A625521A2620B000B59D1 /* UDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625321A2620A000B59D1 /* UDManager.m */; };
-		9D9A625A21A2631C000B59D1 /* MKMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625621A2631C000B59D1 /* MKMineVC.m */; };
-		9D9A625B21A2631C000B59D1 /* MKPersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625921A2631C000B59D1 /* MKPersonInfoVC.m */; };
-		9D9A625E21A26356000B59D1 /* MKSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625D21A26355000B59D1 /* MKSettingVC.m */; };
+		9D9A625A21A2631C000B59D1 /* MKQIZMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625621A2631C000B59D1 /* MKQIZMineVC.m */; };
+		9D9A625B21A2631C000B59D1 /* MKQIZPersonInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625921A2631C000B59D1 /* MKQIZPersonInfoVC.m */; };
+		9D9A625E21A26356000B59D1 /* MKQIZSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625D21A26355000B59D1 /* MKQIZSettingVC.m */; };
 		9D9A626121A2637E000B59D1 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A625F21A2637E000B59D1 /* BaseVC.m */; };
 		9D9A626421A263BC000B59D1 /* NavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A626221A263BC000B59D1 /* NavView.m */; };
 		9D9A626721A2686B000B59D1 /* EEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A626621A2686B000B59D1 /* EEView.m */; };
 		9D9A626E21A26987000B59D1 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A626921A26987000B59D1 /* UIView+SDAutoLayout.m */; };
 		9D9A626F21A26987000B59D1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A626C21A26987000B59D1 /* UITableView+SDAutoTableViewCellHeight.m */; };
-		9D9A627821A26B3B000B59D1 /* MKChangePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627021A26B39000B59D1 /* MKChangePasswordVC.m */; };
-		9D9A627921A26B3B000B59D1 /* MKLogOnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627321A26B3A000B59D1 /* MKLogOnVC.m */; };
-		9D9A627A21A26B3B000B59D1 /* MKForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627621A26B3B000B59D1 /* MKForgetPassWordVC.m */; };
-		9D9A627B21A26B3B000B59D1 /* MKRegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627721A26B3B000B59D1 /* MKRegistVC.m */; };
+		9D9A627821A26B3B000B59D1 /* MKQIZChangePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627021A26B39000B59D1 /* MKQIZChangePasswordVC.m */; };
+		9D9A627921A26B3B000B59D1 /* MKQIZLogOnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627321A26B3A000B59D1 /* MKQIZLogOnVC.m */; };
+		9D9A627A21A26B3B000B59D1 /* MKQIZForgetPassWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627621A26B3B000B59D1 /* MKQIZForgetPassWordVC.m */; };
+		9D9A627B21A26B3B000B59D1 /* MKQIZRegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627721A26B3B000B59D1 /* MKQIZRegistVC.m */; };
 		9D9A627F21A26C1A000B59D1 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A627E21A26C1A000B59D1 /* MBProgressHUD+Add.m */; };
 		9D9A628221A26CDF000B59D1 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628121A26CDF000B59D1 /* UIView+ST.m */; };
 		9D9A628521A26D0E000B59D1 /* EETableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628421A26D0E000B59D1 /* EETableView.m */; };
 		9D9A628821A26D8F000B59D1 /* TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628621A26D8E000B59D1 /* TVCell.m */; };
 		9D9A628B21A26DB5000B59D1 /* EEImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628A21A26DB5000B59D1 /* EEImageView.m */; };
-		9D9A628E21A26E0C000B59D1 /* MKAdviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628C21A26E0B000B59D1 /* MKAdviceVC.m */; };
+		9D9A628E21A26E0C000B59D1 /* MKQIZAdviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A628C21A26E0B000B59D1 /* MKQIZAdviceVC.m */; };
 		9D9A629121A27050000B59D1 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A629021A27050000B59D1 /* NetworkManager.m */; };
 		9D9A629421A27679000B59D1 /* TheTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A629321A27678000B59D1 /* TheTab.m */; };
-		9D9A629721A28695000B59D1 /* MKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A629621A28695000B59D1 /* MKHomeVC.m */; };
-		9DC573ED21A28D1B00B80CCF /* MKDetaiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC573EC21A28D1B00B80CCF /* MKDetaiVC.m */; };
-		9DC573F221A39CDC00B80CCF /* MKZiXunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC573F121A39CDC00B80CCF /* MKZiXunVC.m */; };
+		9D9A629721A28695000B59D1 /* MKQIZHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9A629621A28695000B59D1 /* MKQIZHomeVC.m */; };
+		9DC573ED21A28D1B00B80CCF /* MKQIZDetaiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC573EC21A28D1B00B80CCF /* MKQIZDetaiVC.m */; };
+		9DC573F221A39CDC00B80CCF /* MKQIZZiXunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC573F121A39CDC00B80CCF /* MKQIZZiXunVC.m */; };
 		9DC573F621A3BE7D00B80CCF /* Back_Icon_SystemType.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC573F521A3BE7D00B80CCF /* Back_Icon_SystemType.png */; };
-		9DEE8FDD21BF6DDE00FC24DB /* MKOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8FDC21BF6DDE00FC24DB /* MKOrderDetailVC.m */; };
+		9DEE8FDD21BF6DDE00FC24DB /* MKQIZOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8FDC21BF6DDE00FC24DB /* MKQIZOrderDetailVC.m */; };
 		9DEE8FE321BF96D200FC24DB /* CDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE8FE221BF96D100FC24DB /* CDManager.m */; };
 		BAAE8E51475F7BF7FA0FCC10 /* libPods-MKQIZTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */; };
 /* End PBXBuildFile section */
@@ -63,16 +63,16 @@
 /* Begin PBXFileReference section */
 		53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKQIZTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540AE2362228BF5200364394 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
-		9D04AC9D21BE6A11003B72BA /* MKShoppingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKShoppingVC.h; sourceTree = "<group>"; };
-		9D04AC9E21BE6A11003B72BA /* MKShoppingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKShoppingVC.m; sourceTree = "<group>"; };
+		9D04AC9D21BE6A11003B72BA /* MKQIZShoppingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZShoppingVC.h; sourceTree = "<group>"; };
+		9D04AC9E21BE6A11003B72BA /* MKQIZShoppingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZShoppingVC.m; sourceTree = "<group>"; };
 		9D04ACA121BE6B05003B72BA /* CollectViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectViewCell.h; sourceTree = "<group>"; };
 		9D04ACA221BE6B05003B72BA /* CollectViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectViewCell.m; sourceTree = "<group>"; };
-		9D04ACA421BE7CC5003B72BA /* MKStoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKStoreVC.h; sourceTree = "<group>"; };
-		9D04ACA521BE7CC5003B72BA /* MKStoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKStoreVC.m; sourceTree = "<group>"; };
-		9D0A04FA21C61EDE004FF329 /* MKBlakListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKBlakListVC.h; sourceTree = "<group>"; };
-		9D0A04FB21C61EDE004FF329 /* MKBlakListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKBlakListVC.m; sourceTree = "<group>"; };
-		9D0A04FD21C62B6D004FF329 /* MKMyDongTaiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMyDongTaiVC.m; sourceTree = "<group>"; };
-		9D0A04FF21C62B7E004FF329 /* MKMyDongTaiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMyDongTaiVC.h; sourceTree = "<group>"; };
+		9D04ACA421BE7CC5003B72BA /* MKQIZStoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZStoreVC.h; sourceTree = "<group>"; };
+		9D04ACA521BE7CC5003B72BA /* MKQIZStoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZStoreVC.m; sourceTree = "<group>"; };
+		9D0A04FA21C61EDE004FF329 /* MKQIZBlakListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZBlakListVC.h; sourceTree = "<group>"; };
+		9D0A04FB21C61EDE004FF329 /* MKQIZBlakListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZBlakListVC.m; sourceTree = "<group>"; };
+		9D0A04FD21C62B6D004FF329 /* MKQIZMyDongTaiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZMyDongTaiVC.m; sourceTree = "<group>"; };
+		9D0A04FF21C62B7E004FF329 /* MKQIZMyDongTaiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZMyDongTaiVC.h; sourceTree = "<group>"; };
 		9D0A050021C62BCC004FF329 /* WHC_PhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_PhotoListCell.h; sourceTree = "<group>"; };
 		9D0A050121C62BCC004FF329 /* WHC_Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_Asset.m; sourceTree = "<group>"; };
 		9D0A050221C62BCD004FF329 /* WHC_PhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_PhotoListCell.m; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		9D0A050F21C62BF2004FF329 /* WHC_ChoicePictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_ChoicePictureVC.m; sourceTree = "<group>"; };
 		9D0A051721C62C52004FF329 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		9D0A051821C62C52004FF329 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		9D8BD46C21BE6287003D51F0 /* MKZXDeatilVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKZXDeatilVC.h; sourceTree = "<group>"; };
-		9D8BD46D21BE6287003D51F0 /* MKZXDeatilVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKZXDeatilVC.m; sourceTree = "<group>"; };
+		9D8BD46C21BE6287003D51F0 /* MKQIZZXDeatilVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZZXDeatilVC.h; sourceTree = "<group>"; };
+		9D8BD46D21BE6287003D51F0 /* MKQIZZXDeatilVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZZXDeatilVC.m; sourceTree = "<group>"; };
 		9D9A621121A24FAC000B59D1 /* MKQIZTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKQIZTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9A621421A24FAC000B59D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D9A621521A24FAC000B59D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,12 +107,12 @@
 		9D9A625121A26167000B59D1 /* TheUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheUser.m; sourceTree = "<group>"; };
 		9D9A625321A2620A000B59D1 /* UDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDManager.m; sourceTree = "<group>"; };
 		9D9A625421A2620B000B59D1 /* UDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDManager.h; sourceTree = "<group>"; };
-		9D9A625621A2631C000B59D1 /* MKMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMineVC.m; sourceTree = "<group>"; };
-		9D9A625721A2631C000B59D1 /* MKPersonInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPersonInfoVC.h; sourceTree = "<group>"; };
-		9D9A625821A2631C000B59D1 /* MKMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMineVC.h; sourceTree = "<group>"; };
-		9D9A625921A2631C000B59D1 /* MKPersonInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPersonInfoVC.m; sourceTree = "<group>"; };
-		9D9A625C21A26355000B59D1 /* MKSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSettingVC.h; sourceTree = "<group>"; };
-		9D9A625D21A26355000B59D1 /* MKSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSettingVC.m; sourceTree = "<group>"; };
+		9D9A625621A2631C000B59D1 /* MKQIZMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZMineVC.m; sourceTree = "<group>"; };
+		9D9A625721A2631C000B59D1 /* MKQIZPersonInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZPersonInfoVC.h; sourceTree = "<group>"; };
+		9D9A625821A2631C000B59D1 /* MKQIZMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZMineVC.h; sourceTree = "<group>"; };
+		9D9A625921A2631C000B59D1 /* MKQIZPersonInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZPersonInfoVC.m; sourceTree = "<group>"; };
+		9D9A625C21A26355000B59D1 /* MKQIZSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZSettingVC.h; sourceTree = "<group>"; };
+		9D9A625D21A26355000B59D1 /* MKQIZSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZSettingVC.m; sourceTree = "<group>"; };
 		9D9A625F21A2637E000B59D1 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
 		9D9A626021A2637E000B59D1 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
 		9D9A626221A263BC000B59D1 /* NavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavView.m; sourceTree = "<group>"; };
@@ -124,14 +124,14 @@
 		9D9A626B21A26987000B59D1 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
 		9D9A626C21A26987000B59D1 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		9D9A626D21A26987000B59D1 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
-		9D9A627021A26B39000B59D1 /* MKChangePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKChangePasswordVC.m; sourceTree = "<group>"; };
-		9D9A627121A26B39000B59D1 /* MKRegistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRegistVC.h; sourceTree = "<group>"; };
-		9D9A627221A26B3A000B59D1 /* MKForgetPassWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKForgetPassWordVC.h; sourceTree = "<group>"; };
-		9D9A627321A26B3A000B59D1 /* MKLogOnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLogOnVC.m; sourceTree = "<group>"; };
-		9D9A627421A26B3A000B59D1 /* MKChangePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKChangePasswordVC.h; sourceTree = "<group>"; };
-		9D9A627521A26B3B000B59D1 /* MKLogOnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLogOnVC.h; sourceTree = "<group>"; };
-		9D9A627621A26B3B000B59D1 /* MKForgetPassWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKForgetPassWordVC.m; sourceTree = "<group>"; };
-		9D9A627721A26B3B000B59D1 /* MKRegistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKRegistVC.m; sourceTree = "<group>"; };
+		9D9A627021A26B39000B59D1 /* MKQIZChangePasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZChangePasswordVC.m; sourceTree = "<group>"; };
+		9D9A627121A26B39000B59D1 /* MKQIZRegistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZRegistVC.h; sourceTree = "<group>"; };
+		9D9A627221A26B3A000B59D1 /* MKQIZForgetPassWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZForgetPassWordVC.h; sourceTree = "<group>"; };
+		9D9A627321A26B3A000B59D1 /* MKQIZLogOnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZLogOnVC.m; sourceTree = "<group>"; };
+		9D9A627421A26B3A000B59D1 /* MKQIZChangePasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZChangePasswordVC.h; sourceTree = "<group>"; };
+		9D9A627521A26B3B000B59D1 /* MKQIZLogOnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZLogOnVC.h; sourceTree = "<group>"; };
+		9D9A627621A26B3B000B59D1 /* MKQIZForgetPassWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZForgetPassWordVC.m; sourceTree = "<group>"; };
+		9D9A627721A26B3B000B59D1 /* MKQIZRegistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZRegistVC.m; sourceTree = "<group>"; };
 		9D9A627D21A26C1A000B59D1 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		9D9A627E21A26C1A000B59D1 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		9D9A628021A26CDE000B59D1 /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
@@ -142,21 +142,21 @@
 		9D9A628721A26D8E000B59D1 /* TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCell.h; sourceTree = "<group>"; };
 		9D9A628921A26DB5000B59D1 /* EEImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEImageView.h; sourceTree = "<group>"; };
 		9D9A628A21A26DB5000B59D1 /* EEImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEImageView.m; sourceTree = "<group>"; };
-		9D9A628C21A26E0B000B59D1 /* MKAdviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAdviceVC.m; sourceTree = "<group>"; };
-		9D9A628D21A26E0B000B59D1 /* MKAdviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAdviceVC.h; sourceTree = "<group>"; };
+		9D9A628C21A26E0B000B59D1 /* MKQIZAdviceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKQIZAdviceVC.m; sourceTree = "<group>"; };
+		9D9A628D21A26E0B000B59D1 /* MKQIZAdviceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKQIZAdviceVC.h; sourceTree = "<group>"; };
 		9D9A628F21A2704F000B59D1 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		9D9A629021A27050000B59D1 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		9D9A629221A27678000B59D1 /* TheTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheTab.h; sourceTree = "<group>"; };
 		9D9A629321A27678000B59D1 /* TheTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheTab.m; sourceTree = "<group>"; };
-		9D9A629521A28695000B59D1 /* MKHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHomeVC.h; sourceTree = "<group>"; };
-		9D9A629621A28695000B59D1 /* MKHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKHomeVC.m; sourceTree = "<group>"; };
-		9DC573EB21A28D1B00B80CCF /* MKDetaiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKDetaiVC.h; sourceTree = "<group>"; };
-		9DC573EC21A28D1B00B80CCF /* MKDetaiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKDetaiVC.m; sourceTree = "<group>"; };
-		9DC573F021A39CDC00B80CCF /* MKZiXunVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKZiXunVC.h; sourceTree = "<group>"; };
-		9DC573F121A39CDC00B80CCF /* MKZiXunVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKZiXunVC.m; sourceTree = "<group>"; };
+		9D9A629521A28695000B59D1 /* MKQIZHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZHomeVC.h; sourceTree = "<group>"; };
+		9D9A629621A28695000B59D1 /* MKQIZHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZHomeVC.m; sourceTree = "<group>"; };
+		9DC573EB21A28D1B00B80CCF /* MKQIZDetaiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZDetaiVC.h; sourceTree = "<group>"; };
+		9DC573EC21A28D1B00B80CCF /* MKQIZDetaiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZDetaiVC.m; sourceTree = "<group>"; };
+		9DC573F021A39CDC00B80CCF /* MKQIZZiXunVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZZiXunVC.h; sourceTree = "<group>"; };
+		9DC573F121A39CDC00B80CCF /* MKQIZZiXunVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZZiXunVC.m; sourceTree = "<group>"; };
 		9DC573F521A3BE7D00B80CCF /* Back_Icon_SystemType.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Icon_SystemType.png; sourceTree = "<group>"; };
-		9DEE8FDB21BF6DDE00FC24DB /* MKOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKOrderDetailVC.h; sourceTree = "<group>"; };
-		9DEE8FDC21BF6DDE00FC24DB /* MKOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKOrderDetailVC.m; sourceTree = "<group>"; };
+		9DEE8FDB21BF6DDE00FC24DB /* MKQIZOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZOrderDetailVC.h; sourceTree = "<group>"; };
+		9DEE8FDC21BF6DDE00FC24DB /* MKQIZOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZOrderDetailVC.m; sourceTree = "<group>"; };
 		9DEE8FE121BF96D100FC24DB /* CDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDManager.h; sourceTree = "<group>"; };
 		9DEE8FE221BF96D100FC24DB /* CDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDManager.m; sourceTree = "<group>"; };
 		D550A514367A63D493D38E99 /* Pods-MKQIZTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKQIZTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKQIZTravel/Pods-MKQIZTravel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,12 +250,12 @@
 				9DC573F421A39CF200B80CCF /* Mine */,
 				9DC573F321A39CE200B80CCF /* ZiXun */,
 				9D9A621A21A24FAC000B59D1 /* Main.storyboard */,
-				9D9A625C21A26355000B59D1 /* MKSettingVC.h */,
-				9D9A625D21A26355000B59D1 /* MKSettingVC.m */,
-				9D04AC9D21BE6A11003B72BA /* MKShoppingVC.h */,
-				9D04AC9E21BE6A11003B72BA /* MKShoppingVC.m */,
-				9D04ACA421BE7CC5003B72BA /* MKStoreVC.h */,
-				9D04ACA521BE7CC5003B72BA /* MKStoreVC.m */,
+				9D9A625C21A26355000B59D1 /* MKQIZSettingVC.h */,
+				9D9A625D21A26355000B59D1 /* MKQIZSettingVC.m */,
+				9D04AC9D21BE6A11003B72BA /* MKQIZShoppingVC.h */,
+				9D04AC9E21BE6A11003B72BA /* MKQIZShoppingVC.m */,
+				9D04ACA421BE7CC5003B72BA /* MKQIZStoreVC.h */,
+				9D04ACA521BE7CC5003B72BA /* MKQIZStoreVC.m */,
 				9DEE8FE121BF96D100FC24DB /* CDManager.h */,
 				9DEE8FE221BF96D100FC24DB /* CDManager.m */,
 				9D0A051821C62C52004FF329 /* CollectionViewCell.h */,
@@ -287,14 +287,14 @@
 		9D9A627C21A26B42000B59D1 /* LogOn */ = {
 			isa = PBXGroup;
 			children = (
-				9D9A627421A26B3A000B59D1 /* MKChangePasswordVC.h */,
-				9D9A627021A26B39000B59D1 /* MKChangePasswordVC.m */,
-				9D9A627221A26B3A000B59D1 /* MKForgetPassWordVC.h */,
-				9D9A627621A26B3B000B59D1 /* MKForgetPassWordVC.m */,
-				9D9A627521A26B3B000B59D1 /* MKLogOnVC.h */,
-				9D9A627321A26B3A000B59D1 /* MKLogOnVC.m */,
-				9D9A627121A26B39000B59D1 /* MKRegistVC.h */,
-				9D9A627721A26B3B000B59D1 /* MKRegistVC.m */,
+				9D9A627421A26B3A000B59D1 /* MKQIZChangePasswordVC.h */,
+				9D9A627021A26B39000B59D1 /* MKQIZChangePasswordVC.m */,
+				9D9A627221A26B3A000B59D1 /* MKQIZForgetPassWordVC.h */,
+				9D9A627621A26B3B000B59D1 /* MKQIZForgetPassWordVC.m */,
+				9D9A627521A26B3B000B59D1 /* MKQIZLogOnVC.h */,
+				9D9A627321A26B3A000B59D1 /* MKQIZLogOnVC.m */,
+				9D9A627121A26B39000B59D1 /* MKQIZRegistVC.h */,
+				9D9A627721A26B3B000B59D1 /* MKQIZRegistVC.m */,
 			);
 			path = LogOn;
 			sourceTree = "<group>";
@@ -341,10 +341,10 @@
 		9DC573EF21A39CC500B80CCF /* home */ = {
 			isa = PBXGroup;
 			children = (
-				9D9A629521A28695000B59D1 /* MKHomeVC.h */,
-				9D9A629621A28695000B59D1 /* MKHomeVC.m */,
-				9DC573EB21A28D1B00B80CCF /* MKDetaiVC.h */,
-				9DC573EC21A28D1B00B80CCF /* MKDetaiVC.m */,
+				9D9A629521A28695000B59D1 /* MKQIZHomeVC.h */,
+				9D9A629621A28695000B59D1 /* MKQIZHomeVC.m */,
+				9DC573EB21A28D1B00B80CCF /* MKQIZDetaiVC.h */,
+				9DC573EC21A28D1B00B80CCF /* MKQIZDetaiVC.m */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -352,14 +352,14 @@
 		9DC573F321A39CE200B80CCF /* ZiXun */ = {
 			isa = PBXGroup;
 			children = (
-				9DC573F021A39CDC00B80CCF /* MKZiXunVC.h */,
-				9DC573F121A39CDC00B80CCF /* MKZiXunVC.m */,
-				9D8BD46C21BE6287003D51F0 /* MKZXDeatilVC.h */,
-				9D8BD46D21BE6287003D51F0 /* MKZXDeatilVC.m */,
-				9DEE8FDB21BF6DDE00FC24DB /* MKOrderDetailVC.h */,
-				9DEE8FDC21BF6DDE00FC24DB /* MKOrderDetailVC.m */,
-				9D0A04FF21C62B7E004FF329 /* MKMyDongTaiVC.h */,
-				9D0A04FD21C62B6D004FF329 /* MKMyDongTaiVC.m */,
+				9DC573F021A39CDC00B80CCF /* MKQIZZiXunVC.h */,
+				9DC573F121A39CDC00B80CCF /* MKQIZZiXunVC.m */,
+				9D8BD46C21BE6287003D51F0 /* MKQIZZXDeatilVC.h */,
+				9D8BD46D21BE6287003D51F0 /* MKQIZZXDeatilVC.m */,
+				9DEE8FDB21BF6DDE00FC24DB /* MKQIZOrderDetailVC.h */,
+				9DEE8FDC21BF6DDE00FC24DB /* MKQIZOrderDetailVC.m */,
+				9D0A04FF21C62B7E004FF329 /* MKQIZMyDongTaiVC.h */,
+				9D0A04FD21C62B6D004FF329 /* MKQIZMyDongTaiVC.m */,
 			);
 			path = ZiXun;
 			sourceTree = "<group>";
@@ -367,14 +367,14 @@
 		9DC573F421A39CF200B80CCF /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				9D9A625821A2631C000B59D1 /* MKMineVC.h */,
-				9D9A625621A2631C000B59D1 /* MKMineVC.m */,
-				9D0A04FA21C61EDE004FF329 /* MKBlakListVC.h */,
-				9D0A04FB21C61EDE004FF329 /* MKBlakListVC.m */,
-				9D9A625721A2631C000B59D1 /* MKPersonInfoVC.h */,
-				9D9A625921A2631C000B59D1 /* MKPersonInfoVC.m */,
-				9D9A628D21A26E0B000B59D1 /* MKAdviceVC.h */,
-				9D9A628C21A26E0B000B59D1 /* MKAdviceVC.m */,
+				9D9A625821A2631C000B59D1 /* MKQIZMineVC.h */,
+				9D9A625621A2631C000B59D1 /* MKQIZMineVC.m */,
+				9D0A04FA21C61EDE004FF329 /* MKQIZBlakListVC.h */,
+				9D0A04FB21C61EDE004FF329 /* MKQIZBlakListVC.m */,
+				9D9A625721A2631C000B59D1 /* MKQIZPersonInfoVC.h */,
+				9D9A625921A2631C000B59D1 /* MKQIZPersonInfoVC.m */,
+				9D9A628D21A26E0B000B59D1 /* MKQIZAdviceVC.h */,
+				9D9A628C21A26E0B000B59D1 /* MKQIZAdviceVC.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -503,45 +503,45 @@
 				9D9A625521A2620B000B59D1 /* UDManager.m in Sources */,
 				9D9A629121A27050000B59D1 /* NetworkManager.m in Sources */,
 				9D9A628821A26D8F000B59D1 /* TVCell.m in Sources */,
-				9D0A04FE21C62B6D004FF329 /* MKMyDongTaiVC.m in Sources */,
-				9DC573F221A39CDC00B80CCF /* MKZiXunVC.m in Sources */,
-				9D04AC9F21BE6A11003B72BA /* MKShoppingVC.m in Sources */,
-				9D0A04FC21C61EDE004FF329 /* MKBlakListVC.m in Sources */,
-				9D9A628E21A26E0C000B59D1 /* MKAdviceVC.m in Sources */,
+				9D0A04FE21C62B6D004FF329 /* MKQIZMyDongTaiVC.m in Sources */,
+				9DC573F221A39CDC00B80CCF /* MKQIZZiXunVC.m in Sources */,
+				9D04AC9F21BE6A11003B72BA /* MKQIZShoppingVC.m in Sources */,
+				9D0A04FC21C61EDE004FF329 /* MKQIZBlakListVC.m in Sources */,
+				9D9A628E21A26E0C000B59D1 /* MKQIZAdviceVC.m in Sources */,
 				9D0A051521C62BF2004FF329 /* WHC_ChoicePictureVC.m in Sources */,
 				9D9A624921A25EE6000B59D1 /* Worker.m in Sources */,
 				9D9A629421A27679000B59D1 /* TheTab.m in Sources */,
 				9D9A626F21A26987000B59D1 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
-				9D9A625B21A2631C000B59D1 /* MKPersonInfoVC.m in Sources */,
-				9D9A627B21A26B3B000B59D1 /* MKRegistVC.m in Sources */,
+				9D9A625B21A2631C000B59D1 /* MKQIZPersonInfoVC.m in Sources */,
+				9D9A627B21A26B3B000B59D1 /* MKQIZRegistVC.m in Sources */,
 				9D9A627F21A26C1A000B59D1 /* MBProgressHUD+Add.m in Sources */,
 				9D0A050421C62BCD004FF329 /* WHC_Asset.m in Sources */,
 				9D0A051321C62BF2004FF329 /* WHC_PictureListVC.m in Sources */,
 				9D04ACA321BE6B05003B72BA /* CollectViewCell.m in Sources */,
-				9D9A625E21A26356000B59D1 /* MKSettingVC.m in Sources */,
+				9D9A625E21A26356000B59D1 /* MKQIZSettingVC.m in Sources */,
 				9D9A622421A24FAF000B59D1 /* main.m in Sources */,
-				9D9A625A21A2631C000B59D1 /* MKMineVC.m in Sources */,
+				9D9A625A21A2631C000B59D1 /* MKQIZMineVC.m in Sources */,
 				9D9A626E21A26987000B59D1 /* UIView+SDAutoLayout.m in Sources */,
 				9D9A626721A2686B000B59D1 /* EEView.m in Sources */,
-				9DC573ED21A28D1B00B80CCF /* MKDetaiVC.m in Sources */,
+				9DC573ED21A28D1B00B80CCF /* MKQIZDetaiVC.m in Sources */,
 				9D9A628521A26D0E000B59D1 /* EETableView.m in Sources */,
 				9D0A051921C62C52004FF329 /* CollectionViewCell.m in Sources */,
 				9D9A628221A26CDF000B59D1 /* UIView+ST.m in Sources */,
-				9DEE8FDD21BF6DDE00FC24DB /* MKOrderDetailVC.m in Sources */,
+				9DEE8FDD21BF6DDE00FC24DB /* MKQIZOrderDetailVC.m in Sources */,
 				9D0A051421C62BF2004FF329 /* WHC_CameraVC.m in Sources */,
 				9D9A628B21A26DB5000B59D1 /* EEImageView.m in Sources */,
 				9DEE8FE321BF96D200FC24DB /* CDManager.m in Sources */,
 				9D0A050521C62BCD004FF329 /* WHC_PhotoListCell.m in Sources */,
-				9D04ACA621BE7CC5003B72BA /* MKStoreVC.m in Sources */,
-				9D9A627921A26B3B000B59D1 /* MKLogOnVC.m in Sources */,
+				9D04ACA621BE7CC5003B72BA /* MKQIZStoreVC.m in Sources */,
+				9D9A627921A26B3B000B59D1 /* MKQIZLogOnVC.m in Sources */,
 				9D9A626421A263BC000B59D1 /* NavView.m in Sources */,
-				9D9A629721A28695000B59D1 /* MKHomeVC.m in Sources */,
+				9D9A629721A28695000B59D1 /* MKQIZHomeVC.m in Sources */,
 				9D9A624F21A2610C000B59D1 /* BaseObj.m in Sources */,
-				9D8BD46E21BE6287003D51F0 /* MKZXDeatilVC.m in Sources */,
+				9D8BD46E21BE6287003D51F0 /* MKQIZZXDeatilVC.m in Sources */,
 				9D9A621621A24FAC000B59D1 /* AppDelegate.m in Sources */,
 				9D9A626121A2637E000B59D1 /* BaseVC.m in Sources */,
-				9D9A627A21A26B3B000B59D1 /* MKForgetPassWordVC.m in Sources */,
-				9D9A627821A26B3B000B59D1 /* MKChangePasswordVC.m in Sources */,
+				9D9A627A21A26B3B000B59D1 /* MKQIZForgetPassWordVC.m in Sources */,
+				9D9A627821A26B3B000B59D1 /* MKQIZChangePasswordVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
