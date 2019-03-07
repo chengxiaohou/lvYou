@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5444BBCA2230F99A00840A78 /* UIImage+name.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444BBC92230F99A00840A78 /* UIImage+name.m */; };
 		9D04AC9F21BE6A11003B72BA /* MKQIZShoppingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04AC9E21BE6A11003B72BA /* MKQIZShoppingVC.m */; };
 		9D04ACA321BE6B05003B72BA /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA221BE6B05003B72BA /* CollectViewCell.m */; };
 		9D04ACA621BE7CC5003B72BA /* MKQIZStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04ACA521BE7CC5003B72BA /* MKQIZStoreVC.m */; };
@@ -63,6 +64,8 @@
 /* Begin PBXFileReference section */
 		53F0DDD9F16FF08163FC99AE /* libPods-MKQIZTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKQIZTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		540AE2362228BF5200364394 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		5444BBC82230F99A00840A78 /* UIImage+name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+name.h"; sourceTree = "<group>"; };
+		5444BBC92230F99A00840A78 /* UIImage+name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+name.m"; sourceTree = "<group>"; };
 		9D04AC9D21BE6A11003B72BA /* MKQIZShoppingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKQIZShoppingVC.h; sourceTree = "<group>"; };
 		9D04AC9E21BE6A11003B72BA /* MKQIZShoppingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKQIZShoppingVC.m; sourceTree = "<group>"; };
 		9D04ACA121BE6B05003B72BA /* CollectViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectViewCell.h; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 		9D9A621321A24FAC000B59D1 /* MKQIZTravel */ = {
 			isa = PBXGroup;
 			children = (
+				5444BBC82230F99A00840A78 /* UIImage+name.h */,
+				5444BBC92230F99A00840A78 /* UIImage+name.m */,
 				E41E0F0F222A313000D93072 /* MKQIZTravel.entitlements */,
 				9D9A621421A24FAC000B59D1 /* AppDelegate.h */,
 				9D9A621521A24FAC000B59D1 /* AppDelegate.m */,
@@ -501,6 +506,7 @@
 			files = (
 				9D9A625221A26167000B59D1 /* TheUser.m in Sources */,
 				9D9A625521A2620B000B59D1 /* UDManager.m in Sources */,
+				5444BBCA2230F99A00840A78 /* UIImage+name.m in Sources */,
 				9D9A629121A27050000B59D1 /* NetworkManager.m in Sources */,
 				9D9A628821A26D8F000B59D1 /* TVCell.m in Sources */,
 				9D0A04FE21C62B6D004FF329 /* MKQIZMyDongTaiVC.m in Sources */,
