@@ -42,7 +42,7 @@ static inline void af_swizzleSelector(Class class, SEL originalSelector, SEL swi
         realName = name;
     }
     // 优先查找改名的图
-    image = [self swizzling_imageNamed:[NSString stringWithFormat:@"MMKK_%@",realName]];
+    image = [self swizzling_imageNamed:[NSString stringWithFormat:@"mmkk_%@",realName]];
     
     // 未找到图片，可能是少数不用改名的图
     if (image == nil)
